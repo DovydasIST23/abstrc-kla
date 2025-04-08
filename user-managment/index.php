@@ -16,7 +16,7 @@ $user = new RegularUser("Bob", "bob@example.com", "user123");
 $authService = new AuthService();
 
 // Use database
-$DB = new Database();
+//$DB = new Database();
 
 // Admin Login 
 echo $authService->authenticate($admin, "alice@example.com", "admin123") . "<br>";
