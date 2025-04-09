@@ -23,7 +23,7 @@ abstract class AbstractUser {
     public function getPassword() {
         return $this->password; // Provide access to the hashed password
     }
-
+ 
     // Force child classes to implement userRole()
     abstract public function userRole();
 }
